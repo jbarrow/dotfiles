@@ -18,8 +18,8 @@ set number
 
 " Highlight the cursor line
 set cursorline
-hi CursorLine cterm=none ctermbg=8 
-hi CursorLineNr cterm=none ctermbg=8 ctermfg=15
+hi CursorLine cterm=none ctermbg=8 guibg=#505050 
+hi CursorLineNr cterm=none ctermbg=8 ctermfg=15 guifg=#ffffff
 
 hi LineNr guifg=#050505 ctermfg=grey
 set nuw=6
